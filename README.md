@@ -13,5 +13,5 @@ If you're new to this group, you can create a new repository.  Be sure to ask fo
 1.	Type a couple sentences.
 2.	Idenfity parts of the text that could be replaced with a variable.  
 3.	Replace text with javaScript elements. 
-4.  If all that seemed pretty easy, you've got a couple more options: Look at some code from other students and help them out if they want it. OR, try creating madlib where words from an array are choosen at random.  You'll need a function that will randomly select an element in an array.  Check out the Math library in mdn.
+4.  If all that seemed pretty easy, you've got a couple more options: Look at some code from other students and help them out if they want it. OR, try creating madlib where words from an array are choosen at random.  You'll need a function that will randomly select an element in an array.  Check out the Math library in mdn.  If you figure it out, be sure you can explain what each part of the code does.
 
