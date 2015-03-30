@@ -5,14 +5,41 @@
 </head>
 <body>
 	<script type="text/javascript">
-		var greeting = ["Good morning", "Good afternoon", "Good evening"];
-		var name = "Nate";
-		var date = "March 30th, 2015";
+		// var greeting = ["Good morning", "Good afternoon", "Good evening"];
+		// var name = "Nate";
+		// var date = "March 30th, 2015";
+		// var verb = ["is", "be", "teaching", "will", "taking", "available", "can", "try"];
+		// var noun = ["basics", "JavaScript", "method", "notes", "new", "CodePen", "browser", "commands"];
+		// var puncuation = [",", ".", " "];
+		// var who = ["I", "You"];
+
+//arrays at random. The would use a randomization function from the Math library, limited by the length of the array, and converted to an integer, to create the array index.
+
+// create a function that randomly selects an element from an array
+// convert the element in the array as an integer
+// array index?
+		// var randomNown = function() {
+
+		// }
+
+
+		// document.write(greeting[2] + puncuation[0] + puncuation[2] + "my name is" + puncuation[2] + name + puncuation[1] + "<br />" + puncuation[2] + "Today" + puncuation[0] + puncuation[2] + date + puncuation[0] + puncuation[2] + who[0] + puncuation[2] + verb[3] + puncuation[2] + verb[1] + puncuation[2] + verb[2] + puncuation[2] + who[1] + puncuation[2] + "the" + puncuation[2] + noun[0] + puncuation[2] + "of" + puncuation[2] + noun[1] + puncuation[1] + "<br />" + who[1] + puncuation[2] + verb[3] + puncuation[2] + "need a" + puncuation[2] + noun[2] + puncuation[2] + "for" + puncuation[2] + verb[4] + puncuation[2] + noun[3]+ puncuation[0] + puncuation[2] + "and a" + puncuation[2] + noun[4] + puncuation[2] + noun[5] + puncuation[2] + verb[5] + puncuation[2] + "in your" + puncuation[2] + noun[6] + puncuation[2] + "so" + puncuation[2] + who[1] + puncuation[2] + verb[6] + puncuation[2] + verb[7] + puncuation[2] + "some" + puncuation[2] + noun[4] + puncuation[2] + noun[7] + puncuation[1]);
+
+		// var my_array = ['A','B','C','D','E','F','G'];
 		var verb = ["is", "be", "teaching", "will", "taking", "available", "can", "try"];
-		var noun = ["basics", "JavaScript", "method", "notes", "new", "CodePen", "browser", "commands"];
-		var puncuation = [",", ".", " "];
-		var who = ["I", "You"];
-		document.write(greeting[2] + puncuation[0] + puncuation[2] + "my name is" + puncuation[2] + name + puncuation[1] + "<br />" + puncuation[2] + "Today" + puncuation[0] + puncuation[2] + date + puncuation[0] + puncuation[2] + who[0] + puncuation[2] + verb[3] + puncuation[2] + verb[1] + puncuation[2] + verb[2] + puncuation[2] + who[1] + puncuation[2] + "the" + puncuation[2] + noun[0] + puncuation[2] + "of" + puncuation[2] + noun[1] + puncuation[1] + "<br />" + who[1] + puncuation[2] + verb[3] + puncuation[2] + "need a" + puncuation[2] + noun[2] + puncuation[2] + "for" + puncuation[2] + verb[4] + puncuation[2] + noun[3]+ puncuation[0] + puncuation[2] + "and a" + puncuation[2] + noun[4] + puncuation[2] + noun[5] + puncuation[2] + verb[5] + puncuation[2] + "in your" + puncuation[2] + noun[6] + puncuation[2] + "so" + puncuation[2] + who[1] + puncuation[2] + verb[6] + puncuation[2] + verb[7] + puncuation[2] + "some" + puncuation[2] + noun[4] + puncuation[2] + noun[7] + puncuation[1]);
+		var verbIndex = Math.floor(Math.random() * verb.length); // Random Index position in the array
+		var verbResult = verb[verbIndex];
+		document.write(verbResult);
+
+		// var my_array = ['A','B','C','D','E','F','G'];
+		// var ri = Math.floor(Math.random() * verb.length); 
+		// // Random Index position in the array
+		// var result = my_array[ri];
+		
+		// or (from Stack Overflow: 
+		// 	var item = items[Math.floor(Math.random()*items.length)];
+
+
 
 
 	</script>
